@@ -66,7 +66,7 @@ if __name__ == "__main__":
     parser.add_argument('--environment', required=True,
                        help='Environment name. (Prod, QA, Lab, ...)')
     parser.add_argument('--url', required=True,
-                       help='Marathon url. (http://marathon.xxx.xxx.odigeo.com:8080)')
+                       help='Marathon url. (http://marathon.xxx.xxx:8080)')
 
     args = parser.parse_args()
 
